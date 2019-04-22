@@ -1,0 +1,70 @@
+#fixed {
+    position: fixed;
+    top: 0;
+    left: 200px;
+    width: 150px;
+    padding: 30px;
+    margin: 0;
+    text-align: center;
+    background: teal;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 22px;
+  }
+
+#about {
+    text-align: right;
+    color: grey;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    position: absolute;
+    top: 20px;
+    right: 200px;
+}
+
+a {
+    color: grey;
+    text-decoration: none;
+}
+
+#dash1 {
+    text-align: right;
+    color: grey;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    position: absolute;
+    top: 40px;
+    right: 375px;
+
+}
+
+#portfolio {
+    text-align: right;
+    color: grey;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    position: absolute;
+    top: 20px;
+    right: 150px;
+
+}
+
+#dash2 {
+    text-align: right;
+    color: grey;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    position: absolute;
+    top: 40px;
+    right: 275px;
+
+}
+
+#contact {
+    text-align: right;
+    color: grey;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    position: absolute;
+    top: 20px;
+    right: 100px;
