@@ -1,104 +1,57 @@
-#fixed {
-    position: fixed;
-    top: 0;
-    left: 200px;
-    width: 150px;
+*{
+  margin: 0;
+}
+  
+  #top{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    border-bottom:2px solid #666666;
+    background-color: white;
+  }
+
+
+  #top > h1{
+    background-color: #4aaaa5;
     padding: 30px;
-    margin: 0;
-    text-align: center;
-    background: #4aaaa5;
     color: white;
-    font-family: 'Georgia', Times, "Times New Roman", serif;
-    font-size: 22px;
+    margin: 0;
   }
 
-#about {
-    text-align: right;
-    color: grey;
-    font-size: 16px;
-    font-family: Arial, Helvetica, sans-serif;
-    position: absolute;
-    top: 20px;
-    right: 200px;
-}
-
-a {
-    color: grey;
+  #top > nav > a{
     text-decoration: none;
-}
-
-p {
-    text-align: justify;
-    padding-right: 15px;
-    padding-left:15px;
-}
-
-#dash1 {
-    text-align: right;
     color: grey;
-    font-size: 16px;
-    font-family: Arial, Helvetica, sans-serif;
-    position: absolute;
-    top: 40px;
-    right: 375px;
-
-}
-
-#portfolio {
-    text-align: right;
-    color: grey;
-    font-size: 16px;
-    font-family: Arial, Helvetica, sans-serif;
-    position: absolute;
-    top: 20px;
-    right: 150px;
-
-}
-
-#dash2 {
-    text-align: right;
-    color: grey;
-    font-size: 16px;
-    font-family: Arial, Helvetica, sans-serif;
-    position: absolute;
-    top: 40px;
-    right: 275px;
-
-}
-
-#contact {
-    text-align: right;
-    color: grey;
-    font-size: 16px;
-    font-family: Arial, Helvetica, sans-serif;
-    position: absolute;
-    top: 20px;
-    right: 100px;
-}
-
-div.relative {
-    position: relative;
-    width: 100%;
-    height: 600px;
-    border-top-style: solid;
-    border-top-color: #dddddd;
-    top:77px;
-    background: url("ricepaper2.png"), no-repeat;
-    border-bottom-style: solid;
-    border-bottom-color: #4aaaa5;
-    border-bottom-width: thick;
-
+    border-right: 2px solid grey;
+    padding: 0 15px;
+    font-family: Arial, Helvetica, sans-serif
   }
 
-  #absolute {
-      position: absolute;
-      width: 600px;
-      margin: auto;
-      left: 25%;
-      right:25%;
-      top: 150px;
-      height: 300px;
-      background: white;
+  #top > nav > a:last-child{
+    border-right: none;
+  }
+
+#middle{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+}
+
+  #content{
+    padding:30px;
+    width: 924px;
+    height: auto;
+    background-color: white;
+  }
+
+  p {
+    padding-left: 15px;
+    padding-right: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: justify;
+    line-height: 1.5em;
+    color: grey;
   }
 
   #aboutme {
@@ -107,9 +60,15 @@ div.relative {
     color: #4aaaa5;
     font-size: 24px;
     font-family: 'Georgia', Times, "Times New Roman", serif;
+    line-height: 1em;
+    font-weight:bold;
   }
   
-  hr { width:96%; height:1px; background: lightgrey }
+  #line2, #line3 {
+    margin-top: 10px;
+  }
+
+  hr { width:96%; height:1px; background: lightgrey; margin: 15px }
 
   img {
     float: left;
@@ -120,9 +79,9 @@ div.relative {
     padding-right: 15px;
   }
 
-  .footer{
-    position: relative;
-    top:77px;
+#footer{
+    position: fixed;
+    bottom: 0;
     height: 30px;
     width: 100%;
     background-color: #666666;
@@ -132,4 +91,10 @@ div.relative {
     display: flex;
     justify-content: center;
     align-items: flex-end;
+    border-top:6px solid #4aaaa5;
   }
+
+  body{
+    background: url("ricepaper2.png");
+  }
+
